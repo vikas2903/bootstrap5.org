@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+}
+.carousel-item img{
+    width: 100%;
+    height: 80vh;
+}
+.navbar{
+    height: 7%;
+    background: linear-gradient(to right, rgb(140, 209, 230),  rgb(105, 87, 148));
+}
+.navbar-brand{
+    font-size:1.9rem!important;
+    color: rgb(105, 87, 148)!important;
+}
+.navbar li a{
+    color: #fff!important;
+    font-size: 1.1rem;
+}
+.fa-bars{
+    color: #fff;
+    
+    outline: none;
+}
+.navbar-toggle{
+    color: #fff!important;
+}
+.navbar li a:hover{
+    color:rgb(105, 87, 148)!important;
+}
+.fixed{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+/* ...................................aboutus...................... */
+.aboutimg{
+    min-width: 100%;
+    max-height: 320px;
+}
+.dropdown-menu li a{
+    color: #000!important;
+}
+.services img{
+    width: 100%;
+    height: 100%;
+}
+.gallery{
+    background: seashell;
+    /* opacity: 0.8; */
+}
+.offer-style{
+    background: #a6b6df;
+    color: #fff;
+}
+/* .social {
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+}
+
+.social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 0px;
+    background-color: #FFFFFF;
+    border: 1px solid #CBCBCB;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.social a:hover {
+    background-color: #000000;
+    transition: all ease 0.5s;
+}
+
+.social i {
+    font-size: 20px;
+    color: #2B2B2B;
+} */
+
+
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { }
+/* 
+// Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
